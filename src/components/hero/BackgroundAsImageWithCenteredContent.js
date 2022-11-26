@@ -57,6 +57,7 @@ export default () => {
       </PrimaryLink>
     </NavLinks>
   ];
+  const Link = tw.a`cursor-pointer`;
 
   return (
     <Container>
@@ -69,7 +70,9 @@ export default () => {
               <br />
               Christchurch, NZ
           </Heading>
-          <PrimaryAction>Check out our range ...</PrimaryAction>
+          <Link href="#ProductRange">
+            <PrimaryAction>Check out our range ...</PrimaryAction>
+          </Link>
         </Content>
       </HeroContainer>
     </Container>

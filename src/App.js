@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "style.css"
+import "tailwindcss/lib/css/preflight.css"
+import AnimationRevealPage from "helpers/AnimationRevealPage"
+import Hero from "components/hero/BackgroundAsImageWithCenteredContent"
+import MiniCenteredFooter from "components/footers/MiniCenteredFooter"
+import SingleCol from "components/faqs/SingleCol"
+import SimpleContactUs from "components/forms/SimpleContactUs"
+import TabCardGrid from "components/cards/TabCardGrid"
+import TwoColSingleFeatureWithStats from "components/features/TwoColSingleFeatureWithStats"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <AnimationRevealPage disabled>
+      <Hero />
+      <TabCardGrid />
+      <TwoColSingleFeatureWithStats />
+      <SingleCol />
+      <SimpleContactUs />
+      <MiniCenteredFooter />
+    </AnimationRevealPage>
+  )
 }
 
-export default App;
+export default App

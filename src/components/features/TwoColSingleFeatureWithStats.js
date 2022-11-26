@@ -49,7 +49,7 @@ export default ({textOnLeft = false}) => {
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image imageSrc="https://i.imgur.com/16gBChM.jpg" />
+          <Image imageSrc="https://i.imgur.com/X72rXm3.jpg" />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>

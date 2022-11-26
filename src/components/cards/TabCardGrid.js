@@ -64,6 +64,30 @@ export default ({
     "Highlights": [
       {
         imageSrc:
+          "https://i.imgur.com/l2zoT1f.jpg",
+        title: "Croissant (vegan)",
+        content: "45g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/iVCwZh5.jpg",
+        title: "Donuts, variety",
+        content: "30-45g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/QSW1yly.jpg",
+        title: "Apple Scroll",
+        content: "45g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/ddxuRVM.jpg",
+        title: "Blueberry Danish",
+        content: "60g",
+      },
+      {
+        imageSrc:
           "https://i.imgur.com/cOXQMLl.jpg?fit=crop&w=500&q=80",
         title: "Tin Loaf",
         content: "500g",
@@ -147,15 +171,105 @@ export default ({
           "https://i.imgur.com/16gBChM.jpg",
         title: "Rye Multiseed Mini",
         content: "Sandwich Bun 90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/rgT50uI.jpg",
+        title: "Fruit Loaf",
+        content: "500g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/vdtLZtA.jpg",
+        title: "Turkish Loaf",
+        content: "450g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/W1frE7p.jpg",
+        title: "Tiger Cub",
+        content: "80g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/JF0MF4O.jpg",
+        title: "Cheese Loaf",
+        content: "500g",
       }
     ],
-    Sweet: [
+    Sweets: [
       {
         imageSrc:
           "https://i.imgur.com/yToKuoC.jpg",
         title: "Caramel Slice",
         content: "90g",
-      }
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/4uSwSZA.jpg",
+        title: "Egg Tarte",
+        content: "90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/DzDCzQk.jpg",
+        title: "Lolly Cake",
+        content: "90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/esFdPOD.jpg",
+        title: "Different Slice",
+        content: "90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/KT4ZJFV.jpg",
+        title: "Other Slice",
+        content: "90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/xNEXsGr.jpg",
+        title: "Fruit Slice",
+        content: "90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/YM0ohi8.jpg",
+        title: "Ginger Buddy",
+        content: "35g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/ddxuRVM.jpg",
+        title: "Blueberry Danish",
+        content: "60g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/IB2AvJB.jpg",
+        title: "Apple Danish",
+        content: "60g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/iVCwZh5.jpg",
+        title: "Donuts, variety",
+        content: "30-45g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/QSW1yly.jpg",
+        title: "Apple Scroll",
+        content: "45g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/YM0ohi8.jpg",
+        title: "Ginger Buddy",
+        content: "35g",
+      },
     ],
     Savoury: [
       {
@@ -163,6 +277,12 @@ export default ({
           "https://i.imgur.com/7iu8QD8.jpg?fit=crop&w=500&q=80",
         title: "Pizza Loaf",
         content: "400g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/duF0WZv.jpg",
+        title: "Breakfast Muffin",
+        content: "110g",
       },
     ]
   }

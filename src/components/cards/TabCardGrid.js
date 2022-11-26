@@ -59,7 +59,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 `;
 
 export default ({
-  heading = "Checkout the Menu",
+  heading = "Our Product Range",
   tabs = {
     Starters: [
       {
@@ -160,7 +160,7 @@ export default ({
     <Container>
       <ContentWithPaddingXl>
         <HeaderRow>
-          <Header>{heading}</Header>
+          <Header id="ProductRange">{heading}</Header>
           <TabsControl>
             {Object.keys(tabs).map((tabName, index) => (
               <TabControl key={index} active={activeTab === tabName} onClick={() => setActiveTab(tabName)}>

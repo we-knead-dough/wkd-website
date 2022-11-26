@@ -43,16 +43,13 @@ export default () => {
             <Link href="#ProductRange">Product Range</Link>
             <Link href="#aboutus">About Us</Link>
             <Link href="#faq">FAQ</Link>
+            <Link href="tel:+6433328848">
+              Phone: 03 332 8848
+            </Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink href="https://www.facebook.com/Brumbysbarrington/">
               <FacebookIcon />
-            </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>

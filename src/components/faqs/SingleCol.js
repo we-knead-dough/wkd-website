@@ -66,7 +66,7 @@ export default ({
     {
       question: "How can I reach you best?",
       answer:
-        "At Brumby's Barrington, your point of contact is a real baker! Our bakers are usually asleep during the day, so please write an email; they will get back to you usually in the late afternoon."
+        "At Brumby's Barrington, your point of contact is a real baker! Our bakers are usually asleep during the day, so please write an email; they will get back to you usually in the late afternoon. If you prefer to call, let our team know you would like a callback from a baker. Thank you!"
     },
     {
       question: "Do you sometimes sell old products from the previous day?",

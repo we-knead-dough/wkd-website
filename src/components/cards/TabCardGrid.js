@@ -61,91 +61,110 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Our Product Range",
   tabs = {
-    Starters: [
+    "Highlights": [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
-        price: "$5.99",
-        rating: "5.0",
-        reviews: "87",
-        url: "#"
+          "https://i.imgur.com/cOXQMLl.jpg?fit=crop&w=500&q=80",
+        title: "Tin Loaf",
+        content: "500g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
-        price: "$2.99",
-        rating: "4.8",
-        reviews: "32",
-        url: "#"
+          "https://i.imgur.com/7iu8QD8.jpg?fit=crop&w=500&q=80",
+        title: "Pizza Loaf",
+        content: "400g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Nelli",
-        content: "Hamburger & Fries",
-        price: "$7.99",
-        rating: "4.9",
-        reviews: "89",
-        url: "#"
+          "https://i.imgur.com/yToKuoC.jpg",
+        title: "Caramel Slice",
+        content: "90g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Jalapeno Poppers",
-        content: "Crispy Soyabeans",
-        price: "$8.99",
-        rating: "4.6",
-        reviews: "12",
-        url: "#"
+          "https://i.imgur.com/cLNLP2A.jpg",
+        title: "Sandwich Loaf",
+        content: "600g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Cajun Chicken",
-        content: "Roasted Chicken & Egg",
-        price: "$7.99",
-        rating: "4.2",
-        reviews: "19",
-        url: "#"
+          "https://i.imgur.com/NRTOqg4.jpg",
+        title: "Sourdough Mini Baguette",
+        content: "Sandwich Bun 90g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
-        price: "$2.99",
-        rating: "5.0",
-        reviews: "61",
-        url: "#"
+          "https://i.imgur.com/gi6I0mA.jpg",
+        title: "Pana di Casa Mini",
+        content: "Sandwich Bun 90g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
-        price: "$3.99",
-        rating: "4.2",
-        reviews: "95",
-        url: "#"
+          "https://i.imgur.com/mcTiUnm.jpg",
+        title: "Turkish Mini",
+        content: "Sandwich Bun 90g",
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Carnet Nachos",
-        content: "Chilli Crispy Nachos",
-        price: "$3.99",
-        rating: "3.9",
-        reviews: "26",
-        url: "#"
+          "https://i.imgur.com/16gBChM.jpg",
+        title: "Rye Multiseed Mini",
+        content: "Sandwich Bun 90g",
       }
     ],
-    Main: getRandomCards(),
-    Soup: getRandomCards(),
-    Desserts: getRandomCards()
+    Bread: [
+      {
+        imageSrc:
+          "https://i.imgur.com/cOXQMLl.jpg?fit=crop&w=500&q=80",
+        title: "Tin Loaf",
+        content: "500g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/cLNLP2A.jpg",
+        title: "Sandwich Loaf",
+        content: "600g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/NRTOqg4.jpg",
+        title: "Sourdough Mini Baguette",
+        content: "Sandwich Bun 90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/gi6I0mA.jpg",
+        title: "Pana di Casa Mini",
+        content: "Sandwich Bun 90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/mcTiUnm.jpg",
+        title: "Turkish Mini",
+        content: "Sandwich Bun 90g",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/16gBChM.jpg",
+        title: "Rye Multiseed Mini",
+        content: "Sandwich Bun 90g",
+      }
+    ],
+    Sweet: [
+      {
+        imageSrc:
+          "https://i.imgur.com/yToKuoC.jpg",
+        title: "Caramel Slice",
+        content: "90g",
+      }
+    ],
+    Savoury: [
+      {
+        imageSrc:
+          "https://i.imgur.com/7iu8QD8.jpg?fit=crop&w=500&q=80",
+        title: "Pizza Loaf",
+        content: "400g",
+      },
+    ]
   }
 }) => {
   /*
@@ -193,28 +212,7 @@ export default ({
               <CardContainer key={index}>
                 <Card className="group" href={card.url} initial="rest" whileHover="hover" animate="rest">
                   <CardImageContainer imageSrc={card.imageSrc}>
-                    <CardRatingContainer>
-                      <CardRating>
-                        <StarIcon />
-                        {card.rating}
-                      </CardRating>
-                      <CardReview>({card.reviews})</CardReview>
-                    </CardRatingContainer>
-                    <CardHoverOverlay
-                      variants={{
-                        hover: {
-                          opacity: 1,
-                          height: "auto"
-                        },
-                        rest: {
-                          opacity: 0,
-                          height: 0
-                        }
-                      }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <CardButton>Buy Now</CardButton>
-                    </CardHoverOverlay>
+                    
                   </CardImageContainer>
                   <CardText>
                     <CardTitle>{card.title}</CardTitle>

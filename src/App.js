@@ -14,9 +14,8 @@ function App() {
     <AnimationRevealPage disabled>
       <Hero />
       <TabCardGrid />
-      <TwoColSingleFeatureWithStats />
+      <TwoColSingleFeatureWithStats imageSrc="https://i.imgur.com/16gBChM.jpg" />
       <SingleCol />
-      <SimpleContactUs />
       <MiniCenteredFooter />
     </AnimationRevealPage>
   )

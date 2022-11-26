@@ -11,8 +11,8 @@ import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
 
 const Subheading = tw(SubheadingBase)`mb-4 text-center`;
-const Heading = tw(SectionHeading)`w-full`;
-const Description = tw(SectionDescription)`w-full text-center`;
+const Heading = tw(SectionHeading)`w-full text-primary-500`;
+const Description = tw(SectionDescription)`w-full text-center text-secondary-500`;
 
 const Column = tw.div`flex flex-col items-center`;
 const HeaderContent = tw.div``;
@@ -41,28 +41,39 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "FAQS",
   heading = "You have Questions ?",
-  description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  description = "And we have got answers to all of them. If you have any more questions, please contact us directly!",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "Do you bake fresh?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "Yes, we bake everything fresh by hand every night for the day."
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Do you deliver?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Yes; we deliver within 5km. Delivery cost is $15 for an order value less than $50, and $10 for order values above $50."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "How much are your products?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Due to our small team size, we can offer competitive pricing. Please contact us with your requirements for a quote!"
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "Do you have vegan options?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Certainly. Many of our products are vegan; our vegan Croissants and Danishs are very popular."
+    },
+    {
+      question: "How can I reach you best?",
+      answer:
+        "At Brumby's Barrington, your point of contact is a real baker! Our bakers are usually asleep during the day, so please write an email; they will get back to you usually in the late afternoon."
+    },
+    {
+      question: "Do you sometimes sell old products from the previous day?",
+      answer:
+        "No. We pride ourselves to bake all breads fresh every day. Our products do not contain preservatives and need to be consumed on the same day."
     }
+
   ]
 }) => {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(null);
@@ -78,7 +89,7 @@ export default ({
         <Column>
           <HeaderContent>
             {subheading && <Subheading>{subheading}</Subheading>}
-            <Heading>{heading}</Heading>
+            <Heading id="faq">{heading}</Heading>
             {description && <Description>{description}</Description>}
           </HeaderContent>
           <FAQSContainer>

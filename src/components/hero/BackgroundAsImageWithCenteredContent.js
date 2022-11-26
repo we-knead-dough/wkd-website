@@ -41,14 +41,14 @@ export default () => {
       <NavLink href="#ProductRange">
         Product Range
       </NavLink>
-      <NavLink href="#">
-        Blog
+      <NavLink href="#aboutus">
+        About Us
       </NavLink>
-      <NavLink href="#">
-        Locations
+      <NavLink href="#faq">
+        FAQ
       </NavLink>
-      <NavLink href="#">
-        Pricing
+      <NavLink href="tel:+6433328848">
+        Phone: 03 332 8848
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>

@@ -41,9 +41,8 @@ export default () => {
           <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#ProductRange">Product Range</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="#aboutus">About Us</Link>
+            <Link href="#faq">FAQ</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">

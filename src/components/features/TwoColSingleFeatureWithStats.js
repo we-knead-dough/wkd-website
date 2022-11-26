@@ -19,8 +19,8 @@ const Image = styled.div(props => [
 ]);
 const TextContent = tw.div`lg:py-8`;
 
-const Heading = tw(SectionHeading)`text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
-const Description = tw.p`text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 mt-4`
+const Heading = tw(SectionHeading)`text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight text-primary-500`;
+const Description = tw.p`text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-500 mt-4`
 
 const Statistics = tw.div`mt-6 lg:mt-8 xl:mt-16 flex flex-wrap`
 const Statistic = tw.div`text-lg sm:text-2xl lg:text-3xl w-1/2 mt-4 lg:mt-10 text-center md:text-left`
@@ -32,20 +32,16 @@ export default ({textOnLeft = false}) => {
   //Change the statistics variable as you like, add or delete objects
   const statistics = [
     {
-      key: "Countries",
-      value: "192",
+      key: "Products Every Day",
+      value: "172",
     },
     {
-      key: "Hotels",
-      value: "479",
+      key: "Days open per year",
+      value: "364",
     },
     {
-      key: "Rooms",
-      value: "2093",
-    },
-    {
-      key: "Workers",
-      value: "10347",
+      key: "Order Deadline",
+      value: "4:30pm",
     }
   ]
 
@@ -53,12 +49,15 @@ export default ({textOnLeft = false}) => {
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image imageSrc="https://images.unsplash.com/photo-1582564286939-400a311013a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80" />
+          <Image imageSrc="https://i.imgur.com/16gBChM.jpg" />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Heading>We have the best service.</Heading>
-            <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Description>
+            <Heading id="aboutus">About Us</Heading>
+            <Description>We bake everything fresh, every day, here at Brumby's Barrington. Our popular, comprehensive range of products is an ideal foundation or 
+              supplementary solution for your food operation, no matter what kind of hospitality business you run.<br />
+              <br />
+              We reliably supply you with freshly baked goods, every day.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

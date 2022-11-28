@@ -36,19 +36,19 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>We Knead Dough @ Brumby's Barrington</LogoText>
+            <LogoText>We Knead Dough</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#ProductRange">Product Range</Link>
             <Link href="#aboutus">About Us</Link>
             <Link href="#faq">FAQ</Link>
-            <Link href="tel:+6433328848">
-              Phone: 03 332 8848
+            <Link href="tel:+64279094546">
+              Phone: 027 909 4546
             </Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.facebook.com/Brumbysbarrington/">
+            <SocialLink href="https://www.facebook.com/WeKneadDough/">
               <FacebookIcon />
             </SocialLink>
           </SocialLinksContainer>

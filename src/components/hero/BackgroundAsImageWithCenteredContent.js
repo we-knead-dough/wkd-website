@@ -47,12 +47,12 @@ export default () => {
       <NavLink href="#faq">
         FAQ
       </NavLink>
-      <NavLink href="tel:+6433328848">
-        Phone: 03 332 8848
+      <NavLink href="tel:+64279094546">
+        Phone: 027 909 4546
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="tel:+6433328848">
+      <PrimaryLink href="tel:+64279094546">
         Call Us
       </PrimaryLink>
     </NavLinks>

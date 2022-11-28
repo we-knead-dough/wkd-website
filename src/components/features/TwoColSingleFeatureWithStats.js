@@ -54,7 +54,7 @@ export default ({textOnLeft = false}) => {
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
             <Heading id="aboutus">About Us</Heading>
-            <Description>We bake everything fresh, every day, here at Brumby's Barrington. Our popular, comprehensive range of products is an ideal foundation or 
+            <Description>We bake everything fresh, every day, here at <em>We Knead Dough</em>. Our popular, comprehensive range of products is an ideal foundation or 
               supplementary solution for your food operation, no matter what kind of hospitality business you run.<br />
               <br />
               We reliably supply you with freshly baked goods, every day.</Description>

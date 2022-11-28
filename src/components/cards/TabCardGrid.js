@@ -77,7 +77,7 @@ export default ({
       {
         imageSrc:
           "https://i.imgur.com/QSW1yly.jpg",
-        title: "Apple Scroll",
+        title: "Raspberry Jam Scroll",
         content: "45g",
       },
       {
@@ -89,38 +89,26 @@ export default ({
       {
         imageSrc:
           "https://i.imgur.com/cOXQMLl.jpg?fit=crop&w=500&q=80",
-        title: "Tin Loaf",
+        title: "Pipe Loaf",
         content: "500g",
       },
       {
         imageSrc:
           "https://i.imgur.com/7iu8QD8.jpg?fit=crop&w=500&q=80",
-        title: "Pizza Loaf",
+        title: "Tear & Share Loaf",
         content: "400g",
       },
       {
         imageSrc:
           "https://i.imgur.com/yToKuoC.jpg",
-        title: "Caramel Slice",
+        title: "Peppermint Slice",
         content: "90g",
       },
       {
         imageSrc:
           "https://i.imgur.com/cLNLP2A.jpg",
-        title: "Sandwich Loaf",
+        title: "San Francisco Sourdough",
         content: "600g",
-      },
-      {
-        imageSrc:
-          "https://i.imgur.com/NRTOqg4.jpg",
-        title: "Sourdough Mini Baguette",
-        content: "Sandwich Bun 90g",
-      },
-      {
-        imageSrc:
-          "https://i.imgur.com/gi6I0mA.jpg",
-        title: "Pana di Casa Mini",
-        content: "Sandwich Bun 90g",
       },
       {
         imageSrc:
@@ -128,37 +116,19 @@ export default ({
         title: "Turkish Mini",
         content: "Sandwich Bun 90g",
       },
-      {
-        imageSrc:
-          "https://i.imgur.com/16gBChM.jpg",
-        title: "Rye Multiseed Mini",
-        content: "Sandwich Bun 90g",
-      }
     ],
     Bread: [
       {
         imageSrc:
           "https://i.imgur.com/cOXQMLl.jpg?fit=crop&w=500&q=80",
-        title: "Tin Loaf",
+        title: "Pipe Loaf",
         content: "500g",
       },
       {
         imageSrc:
           "https://i.imgur.com/cLNLP2A.jpg",
-        title: "Sandwich Loaf",
+        title: "San Francisco Sourdough",
         content: "600g",
-      },
-      {
-        imageSrc:
-          "https://i.imgur.com/NRTOqg4.jpg",
-        title: "Sourdough Mini Baguette",
-        content: "Sandwich Bun 90g",
-      },
-      {
-        imageSrc:
-          "https://i.imgur.com/gi6I0mA.jpg",
-        title: "Pana di Casa Mini",
-        content: "Sandwich Bun 90g",
       },
       {
         imageSrc:
@@ -168,14 +138,8 @@ export default ({
       },
       {
         imageSrc:
-          "https://i.imgur.com/16gBChM.jpg",
-        title: "Rye Multiseed Mini",
-        content: "Sandwich Bun 90g",
-      },
-      {
-        imageSrc:
           "https://i.imgur.com/rgT50uI.jpg",
-        title: "Fruit Loaf",
+        title: "Date Loaf",
         content: "500g",
       },
       {
@@ -193,7 +157,7 @@ export default ({
       {
         imageSrc:
           "https://i.imgur.com/JF0MF4O.jpg",
-        title: "Cheese Loaf",
+        title: "Cheese Vienna",
         content: "500g",
       }
     ],
@@ -201,13 +165,7 @@ export default ({
       {
         imageSrc:
           "https://i.imgur.com/yToKuoC.jpg",
-        title: "Caramel Slice",
-        content: "90g",
-      },
-      {
-        imageSrc:
-          "https://i.imgur.com/4uSwSZA.jpg",
-        title: "Egg Tarte",
+        title: "Peppermint Slice",
         content: "90g",
       },
       {
@@ -219,25 +177,25 @@ export default ({
       {
         imageSrc:
           "https://i.imgur.com/esFdPOD.jpg",
-        title: "Different Slice",
+        title: "Caramel Slice",
         content: "90g",
       },
       {
         imageSrc:
           "https://i.imgur.com/KT4ZJFV.jpg",
-        title: "Other Slice",
+        title: "Hedgehog Slice",
         content: "90g",
       },
       {
         imageSrc:
           "https://i.imgur.com/xNEXsGr.jpg",
-        title: "Fruit Slice",
+        title: "Apricot Fudge Slice",
         content: "90g",
       },
       {
         imageSrc:
           "https://i.imgur.com/YM0ohi8.jpg",
-        title: "Ginger Buddy",
+        title: "Gingerbread Man",
         content: "35g",
       },
       {
@@ -261,28 +219,28 @@ export default ({
       {
         imageSrc:
           "https://i.imgur.com/QSW1yly.jpg",
-        title: "Apple Scroll",
-        content: "45g",
-      },
-      {
-        imageSrc:
-          "https://i.imgur.com/YM0ohi8.jpg",
-        title: "Ginger Buddy",
-        content: "35g",
+        title: "Raspberry Jam Scroll",
+        content: "6x 45g",
       },
     ],
     Savoury: [
       {
         imageSrc:
           "https://i.imgur.com/7iu8QD8.jpg?fit=crop&w=500&q=80",
-        title: "Pizza Loaf",
+        title: "Tear & Share Loaf",
         content: "400g",
       },
       {
         imageSrc:
           "https://i.imgur.com/duF0WZv.jpg",
-        title: "Breakfast Muffin",
-        content: "110g",
+        title: "Bruffin",
+        content: "110g (Breakfast Muffin)",
+      },
+      {
+        imageSrc:
+          "https://i.imgur.com/4uSwSZA.jpg",
+        title: "Bacon & Egg Pie",
+        content: "90g",
       },
     ]
   }

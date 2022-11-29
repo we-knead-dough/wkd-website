@@ -48,7 +48,7 @@ export default () => {
             </Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.facebook.com/WeKneadDough/">
+            <SocialLink href="https://www.facebook.com/profile.php?id=100088281759671">
               <FacebookIcon />
             </SocialLink>
           </SocialLinksContainer>
